@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="/img/logo.avif" alt="" class="iconimg">Food Fun</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars-staggered ibar"></i>
+              </button>
+              <div class="offcanvas offcanvas-end bgdiv" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Food Fun</h5>
+                  <button type="button" class="btn-close btn-close-white ibar" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body justify-content-center">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link aitem" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link aitem" aria-current="page" href="#about">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link aitem" aria-current="page" href="#food">Food</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link aitem" aria-current="page" href="#chef">Chef</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link aitem" aria-current="page" href="#contact">Contact</a>
+                      </li>
+                    </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!-- navbar -->
+    
+    <!-- homePage -->
+    <div class="home"  id="home">
+      <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img src="/img/burger.jpg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption top-0 mt-4  d-block "data-aos="fade-right">
+              <p class=" pfood">Burger For You</p>
+              <p class="h1food">Welcome To Food Fun.</p>
+              <p class="phfood">This burger is so delicious</p>
+              <button type="button" class="btn btn-warning px-3 py-2  text-dark fw-bold">Buy Now</button>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="/img/pizza.jpg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption top-0 mt-4 d-block" data-aos="fade-right">
+              <p class=" pfood">Pizza For You</p>
+              <p class="h1food">Welcome To Food Fun.</p>
+              <p class="phfood">This pizza is so delicious</p>
+              <button type="button" class="btn btn-warning px-3 py-2  text-dark fw-bold">Buy Now</button>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="/img/spicynoodles.jpg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption top-0 mt-4 d-block" data-aos="fade-right">
+              <p class=" pfood">Spicy Noodles For You</p>
+              <p class="h1food">Welcome To Food Fun.</p>
+              <p class="phfood">This spicy noodles is so delicious</p>
+              <button type="button" class="btn btn-warning px-3 py-2  text-dark fw-bold">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- homePage -->
+
+    <!-- aboutPage -->
+    <div class="about" data-aos="fade-right" id="about">
+        <div class="carousel-caption top-0 mt-4 d-block " data-aos="fade-right">
+          <p class="atext mt-5">HI, This is Food Fun website.It have delicious foods.It have kind of food.It have many good chef.
+            Do you like this food website and please buy many food.</p>
+        </div>
+    </div>
+    <!-- aboutPage -->
+
+    <!-- food -->
+    <div class="food" id="food">
+      <div class="container">
+        <img src="/img/foodi.jpg" class="imgf mt-4" alt="">
+        <div class="row mt-4" data-aos="fade-right">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card cardbody">
+              <img src="/img/burger.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title card-h5">Burger</h5>
+                <p class="card-text card-p">Price : $5</p>
+                <p class="star">
+                  <i class="fa-solid fa-star" id="1" onmouseover="chg(this);"></i>
+                  <i class="fa-solid fa-star" id="2" onmouseover="chg(this);"></i>
+                  <i class="fa-solid fa-star" id="3" onmouseover="chg(this);"></i>
+                  <i class="fa-solid fa-star" id="4" onmouseover="chg(this);"></i>
+                  <i class="fa-solid fa-star" id="5" onmouseover="chg(this);"></i>
+                </p>
+                <a href="#" class="btn btn-warning text-white abtn"><i class="fa-solid fa-cart-shopping mx-2"></i>Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card cardbody">
+              <img src="/img/pizza.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title card-h5">Pizza</h5>
+                <p class="card-text card-p">Price : $10</p>
+                <p class="star1">
+                  <i class="fa-solid fa-star" id="6" onmouseover="ch(this);"></i>
+                  <i class="fa-solid fa-star" id="7" onmouseover="ch(this);"></i>
+                  <i class="fa-solid fa-star" id="8" onmouseover="ch(this);"></i>
+                  <i class="fa-solid fa-star" id="9" onmouseover="ch(this);"></i>
+                  <i class="fa-solid fa-star" id="10" onmouseover="ch(this);"></i>
+                </p>
+                <a href="#" class="btn btn-warning text-white abtn"><i class="fa-solid fa-cart-shopping mx-2"></i>Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 ">
+            <div class="card cardbody">
+              <img src="/img/spicynoodles.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title card-h5">Spicy Noodles</h5>
+                <p class="card-text card-p">Price : $15</p>
+                <p class="star2">
+                  <i class="fa-solid fa-star" id="11" onmouseover="c(this);"></i>
+                  <i class="fa-solid fa-star" id="12" onmouseover="c(this);"></i>
+                  <i class="fa-solid fa-star" id="13" onmouseover="c(this);"></i>
+                  <i class="fa-solid fa-star" id="14" onmouseover="c(this);"></i>
+                  <i class="fa-solid fa-star" id="15" onmouseover="c(this);"></i>
+                </p>
+                <a href="#" class="btn btn-warning text-white abtn"><i class="fa-solid fa-cart-shopping mx-2"></i>Buy Now</a>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-12 col-md-6 col-lg-4" data-aos="fade-left">
+              <div class="card cardbody">
+                <img src="/img/cake.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title card-h5">Naked Cake</h5>
+                  <p class="card-text card-p">Price : $6</p>
+                  <p class="star3">
+                    <i class="fa-solid fa-star" id="16" onmouseover="chgs(this);"></i>
+                    <i class="fa-solid fa-star" id="17" onmouseover="chgs(this);"></i>
+                    <i class="fa-solid fa-star" id="18" onmouseover="chgs(this);"></i>
+                    <i class="fa-solid fa-star" id="19" onmouseover="chgs(this);"></i>
+                    <i class="fa-solid fa-star" id="20" onmouseover="chgs(this);"></i>
+                  </p>
+                  <a href="#" class="btn btn-warning text-white abtn"><i class="fa-solid fa-cart-shopping mx-2"></i>Buy Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 "  data-aos="fade-down-right">
+              <div class="card cardbody">
+                <img src="/img/milkshake.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title card-h5">Milkshake</h5>
+                  <p class="card-text card-p">Price : $12</p>
+                  <p class="star4">
+                    <i class="fa-solid fa-star" id="21" onmouseover="chs(this);"></i>
+                    <i class="fa-solid fa-star" id="22" onmouseover="chs(this);"></i>
+                    <i class="fa-solid fa-star" id="23" onmouseover="chs(this);"></i>
+                    <i class="fa-solid fa-star" id="24" onmouseover="chs(this);"></i>
+                    <i class="fa-solid fa-star" id="25" onmouseover="chs(this);"></i>
+                  </p>
+                  <a href="#" class="btn btn-warning text-white abtn"><i class="fa-solid fa-cart-shopping mx-2"></i>Buy Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4" data-aos="flip-right">
+              <div class="card cardbody">
+                <img src="/img/rolled.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title card-h5">Rolled Ice-cream</h5>
+                  <p class="card-text card-p">Price : $18</p>
+                  <p class="star5">
+                    <i class="fa-solid fa-star" id="26" onmouseover="cs(this);"></i>
+                    <i class="fa-solid fa-star" id="27" onmouseover="cs(this);"></i>
+                    <i class="fa-solid fa-star" id="28" onmouseover="cs(this);"></i>
+                    <i class="fa-solid fa-star" id="29" onmouseover="cs(this);"></i>
+                    <i class="fa-solid fa-star" id="30" onmouseover="cs(this);"></i>
+                  </p>
+                  <a href="#" class="btn btn-warning text-white abtn"><i class="fa-solid fa-cart-shopping mx-2"></i>Buy Now</a>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-12 col-md-6 col-lg-4 ">
+                <div class="card cardbody">
+                  <img src="/img/papaya.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title card-h5">Papaya Salad</h5>
+                    <p class="card-text card-p">Price : $7</p>
+                    <p class="star6">
+                      <i class="fa-solid fa-star" id="31" onmouseover="chge(this);"></i>
+                      <i class="fa-solid fa-star" id="32" onmouseover="chge(this);"></i>
+                      <i class="fa-solid fa-star" id="33" onmouseover="chge(this);"></i>
+                      <i class="fa-solid fa-star" id="34" onmouseover="chge(this);"></i>
+                      <i class="fa-solid fa-star" id="35" onmouseover="chge(this);"></i>
+                    </p>
+                    <a href="#" class="btn btn-warning text-white abtn"><i class="fa-solid fa-cart-shopping mx-2"></i>Buy Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card cardbody">
+                  <img src="/img/suishi.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title card-h5">Suishi</h5>
+                    <p class="card-text card-p">Price : $14</p>
+                    <p class="star7">
+                      <i class="fa-solid fa-star" id="36" onmouseover="che(this);"></i>
+                      <i class="fa-solid fa-star" id="37" onmouseover="che(this);"></i>
+                      <i class="fa-solid fa-star" id="38" onmouseover="che(this);"></i>
+                      <i class="fa-solid fa-star" id="39" onmouseover="che(this);"></i>
+                      <i class="fa-solid fa-star" id="40" onmouseover="che(this);"></i>
+                    </p>
+                    <a href="#" class="btn btn-warning text-white abtn"><i class="fa-solid fa-cart-shopping mx-2"></i>Buy Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card cardbody">
+                  <img src="/img/seafood.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title card-h5">Sea Food Salad</h5>
+                    <p class="card-text card-p">Burger's Price : $21</p>
+                    <p class="star8">
+                      <i class="fa-solid fa-star" id="41" onmouseover="ce(this);"></i>
+                      <i class="fa-solid fa-star" id="42" onmouseover="ce(this);"></i>
+                      <i class="fa-solid fa-star" id="43" onmouseover="ce(this);"></i>
+                      <i class="fa-solid fa-star" id="44" onmouseover="ce(this);"></i>
+                      <i class="fa-solid fa-star" id="45" onmouseover="ce(this);"></i>
+                    </p>
+                    <a href="#" class="btn btn-warning text-white abtn"><i class="fa-solid fa-cart-shopping mx-2"></i>Buy Now</a>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <a href="" class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">See More</a>
+        </div>
+    </div>
+    <!-- food -->
+
+    <!-- chef -->
+    <div class="chef" id="chef">
+      <div class="container">
+          <div class="img">
+            <img src="/img/ourchef.jpg" class="img-chef" alt="">
+          </div>
+
+          <div class="row mt-5">
+            <div class="col-12 col-md-6 col-lg-4" >
+              <div class="card mx-4" data-aos="fade-right">
+                <img src="/img/chef-man.webp" class="card-img-top cardimg" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mr. John</h5>
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, voluptatem!</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-12 col-md-6 col-lg-4" >
+              <div class="card" data-aos="fade-up">
+                <img src="/img/chef-woman.webp" class="card-img-top cardimg" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ms. Mary</h5>
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, voluptatem!</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-12 col-md-6 col-lg-4" >
+              <div class="card ms-4" data-aos="fade-left">
+                <img src="/img/chef-man.jpg" class="card-img-top cardimg" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mr. Jame</h5>
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, voluptatem!</p>
+                </div>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+    </div>
+    
+    <!-- chef -->
+
+    <!-- Contact -->
+     <div class="contact mb-4" id="contact">
+        <h1 class="text-center text-white">Contact Us</h1>
+        <div class="container">
+          <div class="row mt-5">
+            <div class="col-12 col-md-6 col-lg-6 form-container">
+              <form class="form" data-aos="fade-right" action="https://formspree.io/f/xgvwaodr"
+              method="POST">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label text-warning fw-bold mb-3">Email address</label>
+                  <input type="email" name="email" class="form-control mb-4 inputbg" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                  <address for="exampleFormControlInput1" class="form-label text-warning fw-bold mb-4">Address</label>
+                  <input type="email" name="message" class="form-control mb-4 inputbg"  id="exampleFormControlInput1" placeholder="No.5 Rose Street Kyaukse">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label text-warning fw-bold mb-3">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
+                </div>
+                <button type="button" type="submit" class="btn btn-outline-warning">Warning</button>
+              </form>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6" data-aos="fade-left">
+              <iframe data-aos="fade-left" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.1974851789396!2d96.13153909101575!3d21.609739071818684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30cb9912a19d8095%3A0xf41a429004d24bf1!2z4YCA4YC74YCx4YCs4YCA4YC64YCG4YCK4YC6!5e0!3m2!1smy!2smm!4v1721530297445!5m2!1smy!2smm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+     </div>
+      <!-- Contact -->
+     <footer class="text-white text-center">
+      <h1>Su Pyae Pyae San</h1>
+      <p>Created By Supyaepyaesan</p>
+      <a href="#" class="footer__link"><i class="bx bxl-youtube"></i></a>
+      <a href="#" class="footer__link"><i class="bx bxl-github"></i></a>
+      <a href="#" class="footer__link"><i class="bx bxl-facebook"></i></a>
+    </div>
+     </footer>
+
+
+
+
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+<script src="javascript.js"></script>
+</body>
+</html>
